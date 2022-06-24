@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="lP2Z@4m1{]Acn8yOD/)v" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="c!yDJQ35BhMT7:ez9:L0"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="QVR=OZ!?o-/1-=j,Jl:)"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="TG%Rr0TwFGHCY}/srlT0"></block></value><value name="B"><shadow type="math_number" id="w)|o~Ut`~=D[C2Pfuxp5"><field name="NUM">18</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="dp2c-$mtC`I,(B*EZq.V"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="58lCRu3{SUlUR|75vbN:"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="I(BwOey?oTEubxa3ysKz"></block></value><value name="B"><shadow type="math_number" id="5:svKjeU]EZ2h?eU6oS7"><field name="NUM">24</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="h.ujs8@zl8@8]^Y[J_bT"><field name="LEDS">`
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="H0.?1d6])M6=Y/p+4F=["><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block></statement></block></xml>
